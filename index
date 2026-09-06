@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Professional Psychology and Child Development Center in IP Extension, East Delhi."
+  >
+
+  <title>Dr. Bhavani Kaushal | Mental Health Matters</title>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="header">
+    <nav class="navbar">
+
+      <a href="#home" class="nav-logo" aria-label="Home">
+        <img src="images/logo.png" alt="Dr. Bhavani Kaushal">
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#appointment">Appointment</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#faq">QnA</a></li>
+      </ul>
+
+      <a
+        href="#appointment"
+        class="nav-appointment-btn"
+      >
+        Schedule a Consultation
+        <i class="fa-solid fa-circle-arrow-right"></i>
+      </a>
+
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-container">
+
+        <div class="hero-heading">
+
+          <h1>
+            Mental Health
+            <span>Matters</span>
+          </h1>
+
+          <div class="hero-line">
+            <span></span>
+            <i class="fa-solid fa-heart"></i>
+            <span></span>
+          </div>
+
+          <p class="welcome-text">
+            WELCOME TO INNER RADIANCE
+          </p>
+
+          <p class="hero-location">
+            Psychology and Child Development Center, IP Extension, East Delhi
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="about">
+
+      <div class="container about-container">
+
+        <!-- INTRODUCTION -->
+
+        <div class="about-row about-introduction">
+
+          <div class="about-image doctor-photo">
+            <img
+              src="images/Bahvani kaushal image.png"
+              alt="Dr. Bhavani Kaushal"
+            >
+          </div>
+
+          <div class="about-content introduction-content">
+
+            <p class="eyebrow">
+              INTRODUCTION
+            </p>
+
+            <h2>
+              Dr. Bhavani Kaushal
+            </h2>
+
+            <p>
+              Dr. Bhavani Kaushal is a dedicated and compassionate mental
+              health professional known for her holistic, client-centered
+              approach to psychological wellness. With a strong academic
+              background and extensive clinical experience, she has helped
+              individuals across various age groups navigate emotional,
+              behavioral, and psychological challenges.
+            </p>
+
+            <p>
+              Her work integrates evidence-based therapies with deep empathy,
+              ensuring each client receives personalized care tailored to
+              their unique needs.
+            </p>
+
+            <div class="registration-card">
+
+              <div class="registration-logo">
+                <img src="images/favicon.png" alt="RCI">
+              </div>
+
+              <div class="registration-text">
+
+                <small>
+                  REHABILITATION COUNCIL OF INDIA
+                </small>
+
+                <p>
+                  This is to certify that
+                </p>
+
+                <h3>
+                  Dr. Bhavani Kaushal
+                </h3>
+
+                <p>
+                  is registered as a Clinical Psychologist with RCI.
+                </p>
+
+                <strong>
+                  Registration No. A69451
+                </strong>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- EDUCATION -->
+
+        <div class="about-row about-detail-row">
+
+          <div class="about-image detail-image">
+            <img
+              src="images/education-image.png"
+              alt="Education"
+            >
+          </div>
+
+          <div class="about-content detail-content">
+
+            <h3 class="about-heading">
+              Education
+            </h3>
+
+            <p>
+              Dr. Bhavani Kaushal completed her highest education in Clinical
+              Psychology from one of India's prestigious institutes,
+              <strong>
+                Institute of Mental Health and Hospital Agra
+              </strong>,
+              with specialization in clinical practices.
+            </p>
+
+            <p>
+              Her academic training provided strong theoretical foundations in
+              psychological assessment, diagnosis, psychotherapy and
+              evidence-based clinical practices.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- EXPERIENCE -->
+
+        <div class="about-row about-detail-row reverse-layout">
+
+          <div class="about-content detail-content">
+
+            <h3 class="about-heading">
+              Professional Experience
+            </h3>
+
+            <p>
+              Clinical Psychologist – IHBAS, Delhi
+            </p>
+
+            <p>
+              Clinical Psychologist – Delhi High Court
+            </p>
+
+            <p>
+              Private Clinical Practice – IP Extension, Delhi
+            </p>
+
+            <p>
+              Psychologist – District Early Intervention Centre
+            </p>
+
+          </div>
+
+          <div class="about-image detail-image">
+            <img
+              src="images/Bahvani-kaushal-experience.png"
+              alt="Professional Experience"
+            >
+          </div>
+
+        </div>
+
+
+        <!-- PHILOSOPHY -->
+
+        <div class="about-row about-detail-row">
+
+          <div class="about-image detail-image">
+            <img
+              src="images/Bahvani-kaushal-philosophy.png"
+              alt="Professional Philosophy"
+            >
+          </div>
+
+          <div class="about-content detail-content">
+
+            <h3 class="about-heading">
+              Professional Philosophy
+            </h3>
+
+            <p>
+              Confidentiality and ethical practice
+            </p>
+
+            <p>
+              Empathy and non-judgmental listening
+            </p>
+
+            <p>
+              Evidence-based treatment methods
+            </p>
+
+            <p>
+              Empowering clients with coping skills
+            </p>
+
+            <p>
+              Creating a safe therapeutic environment
+            </p>
+
+            <p>
+              Her goal is to help individuals build resilience and lead
+              balanced, fulfilling lives.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= SERVICES ================= -->
+
+    <section id="services" class="services">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <h2>
+            Thoughtful Care for Every Mind
+          </h2>
+
+          <p>
+            From childhood developmental concerns to adult emotional
+            well-being, Dr. Bhavani Kaushal provides compassionate,
+            evidence-based psychological care tailored to individual needs.
+          </p>
+
+        </div>
+
+
+        <div class="service-grid">
+
+
+          <!-- SCHIZOPHRENIA -->
+
+          <article class="service-item">
+
+            <div class="service-icon">
+              <img
+                src="images/schizophernia-icon.webp"
+                alt="Schizophrenia"
+              >
+            </div>
+
+            <h3>Schizophrenia</h3>
+
+            <p>
+              Support for hallucinations, delusions, disorganized thinking,
+              and emotional withdrawal.
+            </p>
+
+            <button class="learn-more-btn" type="button">
+              Learn more
+            </button>
+
+            <div class="service-article">
+
+              <p>
+                <strong>Symptoms of Schizophrenia:</strong><br>
+                Schizophrenia is a chronic psychiatric disorder that affects
+                thinking, perception, emotions and behavior. Common symptoms
+                include hallucinations, delusions, disorganized speech or
+                behavior, social withdrawal and reduced emotional expression.
+              </p>
+
+              <p>
+                <strong>Treatment Approach:</strong><br>
+                We provide comprehensive care including psychotherapy,
+                evidence-based interventions and support for daily
+                functioning.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- DEPRESSION -->
+
+          <article class="service-item">
+
+            <div class="service-icon">
+              <img
+                src="images/depression-icon.png"
+                alt="Depression"
+              >
+            </div>
+
+            <h3>Depression</h3>
+
+            <p>
+              Support for persistent sadness, low energy, hopelessness and
+              loss of interest.
+            </p>
+
+            <button class="learn-more-btn" type="button">
+              Learn more
+            </button>
+
+            <div class="service-article">
+
+              <p>
+                <strong>Symptoms of Depression:</strong><br>
+                Depression can affect mood, thoughts and daily functioning.
+                Symptoms may include persistent sadness, fatigue, changes in
+                sleep, changes in appetite and difficulty concentrating.
+              </p>
+
+              <p>
+                <strong>Treatment Approach:</strong><br>
+                Evidence-based approaches including CBT, DBT, ACT and other
+                appropriate therapeutic interventions are used based on
+                individual needs.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- OCD -->
+
+          <article class="service-item">
+
+            <div class="service-icon">
+              <img
+                src="images/Obsessive-Compulsive-Disorder-icon.png"
+                alt="Obsessive Compulsive Disorder"
+              >
+            </div>
+
+            <h3>Obsessive Compulsive Disorder (OCD)</h3>
+
+            <p>
+              Support for intrusive thoughts and repetitive behaviors that
+              interfere with daily life.
+            </p>
+
+            <button class="learn-more-btn" type="button">
+              Learn more
+            </button>
+
+            <div class="service-article">
+
+              <p>
+                <strong>Obsessive Compulsive Disorder:</strong><br>
+                OCD may involve persistent unwanted thoughts and repetitive
+                behaviors performed to reduce distress.
+              </p>
+
+              <p>
+                <strong>Treatment Approach:</strong><br>
+                Psychological assessment and evidence-based therapeutic
+                approaches are selected according to individual needs.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- ANXIETY -->
+
+          <article class="service-item">
+
+            <div class="service-icon">
+              <img
+                src="images/anxiety-disorder.png"
+                alt="Anxiety Disorder"
+              >
+            </div>
+
+            <h3>Anxiety Disorder</h3>
+
+            <p>
+              Support for excessive worry, panic attacks, fear and persistent
+              anxiety.
+            </p>
+
+            <button class="learn-more-btn" type="button">
+              Learn more
+            </button>
+
+            <div class="service-article">
+
+              <p>
+                <strong>Symptoms of Anxiety:</strong><br>
+                Anxiety disorders can involve excessive worry, restlessness,
+                rapid heartbeat, sweating, difficulty concentrating and sleep
+                disturbances.
+              </p>
+
+              <p>
+                <strong>Treatment Approach:</strong><br>
+                Therapy may include CBT, relaxation strategies and other
+                evidence-based psychological interventions.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- DE ADDICTION -->
+
+          <article class="service-item">
+
+            <div class="service-icon">
+              <img
+                src="images/de-addiction-icon.png"
+                alt="De-addiction"
+              >
+            </div>
+
+            <h3>De-addiction</h3>
+
+            <p>
+              Support for substance and behavioral addictions to help build
+              healthier habits.
+            </p>
+
+            <button class="learn-more-btn" type="button">
+              Learn more
+            </button>
+
+            <div class="service-article">
+
+              <p>
+                <strong>De-addiction Support:</strong><br>
+                Support is provided through assessment, psychological
+                intervention, coping strategies and individualized care.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- STRESS -->
+
+          <article class="service-item">
+
+            <div class="service-icon">
+              <img
+                src="images/stress-disorders-icon.png"
+                alt="Stress and Sleep Disorders"
+              >
+            </div>
+
+            <h3>Stress & Sleep Disorders</h3>
+
+            <p>
+              Managing chronic stress, burnout, insomnia and sleep-related
+              concerns.
+            </p>
+
+            <button class="learn-more-btn" type="button">
+              Learn more
+            </button>
+
+            <div class="service-article">
+
+              <p>
+                <strong>Stress and Sleep Support:</strong><br>
+                Therapy focuses on identifying emotional and behavioral
+                factors that may affect stress levels and healthy sleep.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- BIPOLAR -->
+
+          <article class="service-item">
+
+            <div class="service-icon">
+              <img
+                src="images/bipolar-icon.png"
+                alt="Bipolar Disorder"
+              >
+            </div>
+
+            <h3>Bipolar Disorder</h3>
+
+            <p>
+              Support for mood changes ranging from emotional highs to
+              depressive episodes.
+            </p>
+
+            <button class="learn-more-btn" type="button">
+              Learn more
+            </button>
+
+            <div class="service-article">
+
+              <p>
+                <strong>Bipolar Disorder:</strong><br>
+                Support focuses on understanding mood patterns, improving
+                emotional regulation and developing healthy coping
+                strategies.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- CHILD PSYCHIATRY -->
+
+          <article class="service-item">
+
+            <div class="service-icon">
+              <img
+                src="images/Child-Psychiatry-icon.png"
+                alt="Child Psychiatry"
+              >
+            </div>
+
+            <h3>Child Psychiatry</h3>
+
+            <p>
+              Assessment and care for emotional, behavioral and developmental
+              concerns.
+            </p>
+
+            <button class="learn-more-btn" type="button">
+              Learn more
+            </button>
+
+            <div class="service-article">
+
+              <p>
+                <strong>Child Mental Health:</strong><br>
+                Support is provided for developmental, emotional and
+                behavioral concerns through individualized assessment and
+                family-centered care.
+              </p>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PARENTING VIDEO ================= -->
+
+    <section id="parenting-guidance" class="parenting-section">
+
+      <div class="parenting-grid">
+
+        <div class="parenting-video">
+
+          <video
+            id="parentingVideo"
+            muted
+            playsinline
+            controls
+            preload="metadata"
+            poster="images/video-thumbnail.jpg"
+          >
+            <source
+              src="videos/parenting-video.mp4"
+              type="video/mp4"
+            >
+          </video>
+
+        </div>
+
+
+        <div class="parenting-content">
+
+          <h2>
+            Parenting Guidance &<br>
+            Child Development
+          </h2>
+
+          <p>
+            Watch Dr. Bhavani Kaushal share practical insights on parenting,
+            child behaviour, emotional well-being, and healthy family
+            relationships.
+          </p>
+
+          <ul>
+
+            <li>
+              <i class="fa-regular fa-lightbulb"></i>
+              Practical parenting strategies
+            </li>
+
+            <li>
+              <i class="fa-solid fa-children"></i>
+              Building healthy family relationships
+            </li>
+
+            <li>
+              <i class="fa-solid fa-hand-holding-heart"></i>
+              Understanding child behaviour
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div class="parenting-image">
+
+          <img
+            src="images/video-thumbnail.jpg"
+            alt="Parent and child"
+          >
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= APPOINTMENT ================= -->
+
+    <section id="appointment" class="appointment">
+
+      <div class="container">
+
+        <div class="section-heading appointment-heading">
+
+          <h2>
+            Appointment and Quick Assistance
+          </h2>
+
+          <p>
+            Book an appointment with Dr. Bhavani Kaushal or reach out directly
+            on WhatsApp for quick assistance.
+          </p>
+
+        </div>
+
+
+        <div class="appointment-buttons">
+
+          <a
+            href="https://share.google/2Uil3xdylM3Q7Jsd1"
+            target="_blank"
+            class="schedule-btn"
+          >
+            Schedule a Consultation
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </a>
+
+          <a
+            href="https://wa.me/917217756635"
+            target="_blank"
+            class="whatsapp-btn"
+          >
+            WhatsApp Now
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= TESTIMONIALS ================= -->
+
+    <section class="testimonials">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <h2>
+            Hear from the Healed ones
+          </h2>
+
+        </div>
+
+
+        <div class="testimonial-grid">
+
+          <article class="testimonial-card">
+
+            <div class="quote-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+
+            <p>
+              Dr. Bhavani was patient, understanding and very gentle with my
+              son. She helped us understand his behaviour better and gave us
+              practical ways to support him.
+            </p>
+
+            <div class="testimonial-author">
+              <strong>Mohan Mishra</strong>
+              <span>Parent of a 9-year-old</span>
+            </div>
+
+          </article>
+
+
+          <article class="testimonial-card">
+
+            <div class="quote-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+
+            <p>
+              I finally felt comfortable talking about things I had been
+              struggling with for a long time. The sessions felt safe and
+              non-judgmental.
+            </p>
+
+            <div class="testimonial-author">
+              <strong>Anjali</strong>
+              <span>Young adult, Delhi</span>
+            </div>
+
+          </article>
+
+
+          <article class="testimonial-card">
+
+            <div class="quote-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+
+            <p>
+              The experience was calm, professional and reassuring from the
+              very first session. I appreciated how thoughtfully everything
+              was explained.
+            </p>
+
+            <div class="testimonial-author">
+              <strong>Nikki Lamba</strong>
+              <span>Client</span>
+            </div>
+
+          </article>
+
+        </div>
+
+
+        <div class="slider-dots">
+          <span class="active"></span>
+          <span></span>
+          <span></span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT FORM ================= -->
+
+    <section id="contact" class="contact">
+
+      <div class="container">
+
+        <div class="contact-form-banner">
+
+          <div class="contact-banner-content">
+
+            <div class="contact-illustration">
+              <i class="fa-solid fa-hands-holding-child"></i>
+            </div>
+
+            <h2>
+              Tell your problem,<br>
+              Don't keep to yourself
+            </h2>
+
+          </div>
+
+
+          <form id="appointmentForm" class="contact-form">
+
+            <div class="form-row">
+
+              <div class="form-group">
+                <label for="name">First Name</label>
+                <input id="name" type="text" required>
+              </div>
+
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input id="lastName" type="text">
+              </div>
+
+            </div>
+
+
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input id="mobile" type="tel" required>
+            </div>
+
+
+            <div class="form-group">
+              <label for="message">Write your query</label>
+              <textarea id="message" required></textarea>
+            </div>
+
+
+            <div class="form-submit">
+              <button type="submit">
+                Send Message
+              </button>
+            </div>
+
+            <p id="formStatus" class="status"></p>
+
+          </form>
+
+        </div>
+
+
+        <div class="contact-info-grid">
+
+          <a
+            href="https://www.google.com/maps/dir//Psychology+and+skin+clinic,+C2,+opposite+PJ+fitness+Gym,+near+Geetanjali+Salon,+Madhu+Vihar,+I.P.Extension,+Patparganj,+Delhi,+110092/@28.7320506,77.2749958"
+            target="_blank"
+            class="contact-address"
+          >
+
+            <h3>
+              <i class="fa-solid fa-location-dot"></i>
+              Clinic address
+            </h3>
+
+            <p>
+              C2, opposite PJ fitness Gym<br>
+              near Geetanjali Salon, Madhu Vihar,<br>
+              Sector 16, Indira Nagar,<br>
+              I.P. Extension, Patparganj, Delhi, 110092
+            </p>
+
+            <span>
+              Office hours: 10:00 AM to 6:00 PM
+            </span>
+
+          </a>
+
+
+          <div class="contact-side">
+
+            <a
+              href="tel:+917217756635"
+              class="contact-box"
+            >
+              <h3>
+                <i class="fa-solid fa-phone"></i>
+                Phone number
+              </h3>
+
+              <p>+91-7217756635</p>
+            </a>
+
+
+            <a
+              href="mailto:bhavanikaushal@gmail.com"
+              class="contact-box"
+            >
+              <h3>
+                <i class="fa-solid fa-envelope"></i>
+                Email address
+              </h3>
+
+              <p>bhavanikaushal@gmail.com</p>
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <p class="disclaimer">
+          Disclaimer: Online information does not replace an in-person
+          consultation.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= FAQ ================= -->
+
+    <section id="faq" class="faq">
+
+      <div class="container faq-container">
+
+        <div class="faq-heading">
+
+          <h2>
+            Have questions about<br>
+            mental health?
+          </h2>
+
+          <p>
+            Find clear, reliable answers to common questions about mental
+            health, therapy, child development and emotional well-being.
+          </p>
+
+        </div>
+
+
+        <div class="faq-list">
+
+          <div class="faq-item active">
+
+            <button class="faq-question">
+              <span>
+                How do I know if I should see a psychologist?
+              </span>
+
+              <i class="fa-solid fa-minus"></i>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                You don't need to wait until your concerns become
+                overwhelming. If persistent changes in mood, thoughts,
+                behaviour, relationships or daily functioning are affecting
+                your well-being, speaking with a psychologist can help.
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="faq-item">
+
+            <button class="faq-question">
+              <span>
+                What happens during the first consultation?
+              </span>
+
+              <i class="fa-solid fa-plus"></i>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                The first session helps understand your concerns, background
+                and goals so that appropriate support can be planned.
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="faq-item">
+
+            <button class="faq-question">
+              <span>
+                Do I need a diagnosis before starting therapy?
+              </span>
+
+              <i class="fa-solid fa-plus"></i>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                No. You can seek psychological support even without a formal
+                diagnosis.
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="faq-item">
+
+            <button class="faq-question">
+              <span>
+                How long does therapy take?
+              </span>
+
+              <i class="fa-solid fa-plus"></i>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                The duration varies depending on your individual needs,
+                concerns and therapeutic goals.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <div class="container footer-container">
+
+      <div class="footer-info">
+
+        <img
+          src="images/logo.png"
+          alt="Dr. Bhavani Kaushal"
+          class="footer-logo"
+        >
+
+        <p>
+          Thoughtful psychological support to help you understand yourself
+          and overcome challenges.
+        </p>
+
+        <p>
+          I.P. Extension, Patparganj, Delhi, 110092
+        </p>
+
+        <a href="tel:+917217756635">
+          +91-7217756635
+        </a>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <a href="#about">ABOUT</a>
+        <a href="#services">SERVICES</a>
+        <a href="#appointment">APPOINTMENT</a>
+        <a href="#contact">CONTACT US</a>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <p>
+        © 2026 Dr. Bhavani Kaushal Psychiatry Clinic. All rights reserved.
+      </p>
+
+      <p>
+        Medical information is for educational purposes only. Privacy and
+        confidentiality are respected.
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
