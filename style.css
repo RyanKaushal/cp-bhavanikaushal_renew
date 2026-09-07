@@ -1167,93 +1167,119 @@ section {
    MOBILE
 ========================================================= */
 
-@media (max-width: 768px) {
-   
-.service-grid {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 10px;
-    }
-
-    .service-item {
-        width: 100%;
+@media (max-width: 768px) { 
+    
+    /* =========================
+       SERVICES - 3 CARDS PER ROW
+       ========================= */
+    .service-grid { 
+        display: grid; 
+        grid-template-columns: repeat(3, minmax(0, 1fr)); 
+        gap: 10px; 
+    } 
+ 
+    .service-item { 
+        width: 100%; 
         min-width: 0;
-    }
-   
-   .registration-card{
-      display:none;
-   }
-
-    .hero {
-        min-height: 360px;
-        height: 360px;
-        padding: 0;
-        overflow: hidden;
-        position: relative;
+        padding: 10px;
     }
 
-    /* Keep the background picture visible */
-    .hero-background-gif {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
+    .service-icon img {
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
     }
 
-    /* Keep text centered over the image */
-    .hero-content {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-
-        padding-top: 75px;
-        z-index: 2;
-        text-align: center;
-    }
-
-    /* Main heading */
-    .hero h1 {
-        font-size: 42px;
-        line-height: 1.05;
-        margin: 0;
-        white-space: nowrap;
-    }
-
-    /* Subtitle / welcome text */
-    .hero p {
+    .service-item h3 {
         font-size: 11px;
+        line-height: 1.3;
+    }
+
+    .service-item > p {
+        font-size: 8px;
         line-height: 1.4;
-        margin-top: 12px;
-        max-width: 90%;
     }
 
-    /* If you have a smaller welcome heading */
-    .hero .hero-subtitle {
-        font-size: 11px;
+    .learn-more-btn {
+        font-size: 8px;
+        padding: 4px 7px;
     }
-
-    /* Hide the navigation/buttons as requested */
-    .nav-links,
-    .menu-toggle,
-    .consultation-btn {
-        display: none;
-    }
-   .about-row {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-        align-items: center;
-        gap: 13px;
-        margin-bottom: 56px;
-    }
+    
+    .registration-card { 
+        display: none; 
+    } 
+ 
+    /* =========================
+       HERO
+       ========================= */
+    .hero { 
+        min-height: 360px; 
+        height: 360px; 
+        padding: 0; 
+        overflow: hidden; 
+        position: relative; 
+    } 
+ 
+    .hero-background-gif { 
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        object-position: center; 
+    } 
+ 
+    .hero-content { 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+ 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: flex-start; 
+ 
+        padding-top: 75px; 
+        z-index: 2; 
+        text-align: center; 
+    } 
+ 
+    .hero h1 { 
+        font-size: 42px; 
+        line-height: 1.05; 
+        margin: 0; 
+        white-space: nowrap; 
+    } 
+ 
+    .hero p { 
+        font-size: 11px; 
+        line-height: 1.4; 
+        margin-top: 12px; 
+        max-width: 90%; 
+    } 
+ 
+    .hero .hero-subtitle { 
+        font-size: 11px; 
+    } 
+ 
+    /* Hide navigation/buttons */
+    .nav-links, 
+    .menu-toggle, 
+    .consultation-btn { 
+        display: none; 
+    } 
+ 
+    /* =========================
+       ABOUT
+       ========================= */
+    .about-row { 
+        display: grid; 
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); 
+        align-items: center; 
+        gap: 13px; 
+        margin-bottom: 56px; 
+    } 
 }
-
 /* =========================================================
    SMALL MOBILE
 ========================================================= */
