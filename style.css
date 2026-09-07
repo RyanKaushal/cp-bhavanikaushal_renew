@@ -1230,6 +1230,13 @@ section {
     .consultation-btn {
         display: none;
     }
+   .about-row {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        align-items: center;
+        gap: 13px;
+        margin-bottom: 56px;
+    }
 }
 
 /* =========================================================
