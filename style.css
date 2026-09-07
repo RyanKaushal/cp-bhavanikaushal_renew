@@ -1169,6 +1169,10 @@ section {
 
 @media (max-width: 768px) {
 
+   .parenting-grid {
+    grid-template-columns: repeat(3, 1fr);
+    }
+
    .parenting-content{
     padding: 0px 10px;
     background: var(--primary);
@@ -1265,6 +1269,11 @@ section {
 ========================================================= */
 
 @media (max-width: 480px) {
+
+   .parenting-grid {
+    grid-template-columns: repeat(3, 1fr);
+    }
+
 
    .parenting-content{
     padding: 0px 10px;
