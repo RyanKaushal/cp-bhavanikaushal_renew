@@ -1169,6 +1169,12 @@ section {
 
 @media (max-width: 768px) {
 
+   .parenting-content{
+    padding: 0px 10px;
+    background: var(--primary);
+    color: var(--white);
+   }
+
     .service-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1259,6 +1265,12 @@ section {
 ========================================================= */
 
 @media (max-width: 480px) {
+
+   .parenting-content{
+    padding: 0px 10px;
+    background: var(--primary);
+    color: var(--white);
+   }
 
   .hero-heading h1 {
     font-size: 34px;
