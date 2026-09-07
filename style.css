@@ -1169,15 +1169,14 @@ section {
 
 @media (max-width: 768px) {
    
-   .services-grid {
+   .services-container {
         display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
 
-    .service-card {
+    .service-item {
         width: 100%;
-        min-width: 0;
     }
    
    .registration-card{
