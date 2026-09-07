@@ -1168,6 +1168,21 @@ section {
 ========================================================= */
 
 @media (max-width: 768px) {
+   
+   .services-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .service-card {
+        width: 100%;
+        min-width: 0;
+    }
+   
+   .registration-card{
+      display:none;
+   }
 
     .hero {
         min-height: 360px;
@@ -1229,6 +1244,13 @@ section {
     .menu-toggle,
     .consultation-btn {
         display: none;
+    }
+   .about-row {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        align-items: center;
+        gap: 13px;
+        margin-bottom: 56px;
     }
 }
 
