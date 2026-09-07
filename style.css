@@ -1168,6 +1168,9 @@ section {
 ========================================================= */
 
 @media (max-width: 768px) {
+   .registration-card{
+      display:none;
+   }
 
     .hero {
         min-height: 360px;
