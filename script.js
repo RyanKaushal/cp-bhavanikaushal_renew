@@ -71,61 +71,45 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("appointmentForm");
 
   if (appointmentForm) {
+  appointmentForm.addEventListener("submit", function (e) {
+    e.preventDefault();
 
-    appointmentForm.addEventListener(
-      "submit",
-      function (event) {
+    const name = document.getElementById("name").value.trim();
+    const mobile = document.getElementById("mobile").value.trim();
+    const message = document.getElementById("message").value.trim();
+    const status = document.getElementById("formStatus");
 
-        event.preventDefault();
+    if (name === "" || mobile === "" || message === "") {
+      status.textContent = "Please fill all required fields.";
+      status.style.color = "red";
+      return;
+    }
 
-        const name =
-          document.getElementById("name").value.trim();
+    if (!/^[0-9]{10}$/.test(mobile)) {
+      status.textContent = "Please enter a valid 10-digit mobile number.";
+      status.style.color = "red";
+      return;
+    }
 
-        const mobile =
-          document.getElementById("mobile").value.trim();
+    const whatsappNumber = "917217756635";
 
-        const message =
-          document.getElementById("message").value.trim();
+    const whatsappMessage =
+      `New Query from Website\n\n` +
+      `Name: ${name}\n` +
+      `Mobile: ${mobile}\n\n` +
+      `Query:\n${message}`;
 
-        const status =
-          document.getElementById("formStatus");
+    const whatsappURL =
+      `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
+    window.open(whatsappURL, "_blank");
 
-        if (!name || !mobile || !message) {
+    status.textContent = "Opening WhatsApp...";
+    status.style.color = "green";
 
-          status.textContent =
-            "Please fill all required fields.";
-
-          status.style.color = "#d9534f";
-
-          return;
-
-        }
-
-
-        if (!/^[0-9]{10}$/.test(mobile)) {
-
-          status.textContent =
-            "Please enter a valid 10-digit mobile number.";
-
-          status.style.color = "#d9534f";
-
-          return;
-
-        }
-
-
-        status.textContent =
-          "Thank you. Your query has been submitted successfully.";
-
-        status.style.color = "#2f8a68";
-
-        appointmentForm.reset();
-
-      }
-    );
-
-  }
+    this.reset();
+  });
+}
 
 
   /* =====================================================
