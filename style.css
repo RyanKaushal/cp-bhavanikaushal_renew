@@ -408,10 +408,18 @@ section {
   object-fit: cover;
 }
 
-.detail-content {
+/* .detail-content {
   padding: 35px 25px;
   background: var(--background);
   border-radius: 0 28px 28px 0;
+} */
+.detail-content {
+    padding: 35px 25px;
+    background: var(--background);
+    border-radius: 0 28px 28px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .reverse-layout .detail-content {
@@ -425,11 +433,113 @@ section {
   margin-bottom: 14px;
 }
 
-.detail-content p {
+/* .detail-content p {
   color: #657078;
   font-size: 10px;
   margin-bottom: 6px;
+} */
+.detail-content p {
+    color: #657078;
+    font-size: 10px;
+    margin-bottom: 8px;
+    line-height: 1.7;
 }
+.detail-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* Professional Experience - bullet list styling */
+.experience-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.experience-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+    font-size: 10px;
+    color: #657078;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.experience-list li:last-child {
+    border-bottom: none;
+}
+
+.experience-list li i {
+    color: #3c9587;
+    font-size: 12px;
+    width: 18px;
+    flex-shrink: 0;
+}
+
+/* Make education text more readable */
+.detail-content .education-text {
+    font-size: 10px;
+    color: #657078;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+/* Fix alignment between image and content */
+.about-detail-row {
+    align-items: stretch;
+}
+
+.detail-image {
+    height: 215px;
+    overflow: hidden;
+    border-radius: 0;
+}
+
+.detail-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* First image (education) - keep as is */
+.about-detail-row:first-of-type .detail-image {
+    border-radius: 0;
+}
+
+/* Reverse layout image */
+.reverse-layout .detail-image {
+    border-radius: 0;
+}
+
+/* Make about rows more consistent */
+.about-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: stretch;
+    gap: 40px;
+    margin-bottom: 56px;
+}
+
+/* Fix content padding */
+.about-content {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Better heading styling */
+.about-heading {
+    color: #345f62;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 19px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+/* Remove extra spacing in detail content */
+.detail-content .about-heading {
+    margin-top: 0;
+}
+
 
 
 /* =========================================================
