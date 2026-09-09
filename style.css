@@ -1421,3 +1421,255 @@ section {
   }
 
 }
+
+
+/* =========================================================
+   EDUCATION / PROFESSIONAL EXPERIENCE - OVERLAPPING ZIG-ZAG
+   ========================================================= */
+
+/* Keep the introduction and all other About content unchanged.
+   These rules only control the two detail rows. */
+.about-detail-row {
+  position: relative;
+  display: block;
+  height: 300px;
+  margin-bottom: 42px;
+  isolation: isolate;
+}
+
+.about-detail-row .detail-image {
+  position: absolute;
+  top: 0;
+  width: 56%;
+  height: 300px;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 0;
+}
+
+.about-detail-row .detail-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Education: image left, card overlaps from the right. */
+.about-detail-row:not(.reverse-layout) .detail-image {
+  left: 0;
+}
+
+.about-detail-row:not(.reverse-layout) .detail-content {
+  position: absolute;
+  top: 48px;
+  right: 0;
+  width: 58%;
+  min-height: 204px;
+  padding: 30px 30px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: none;
+  z-index: 3;
+}
+
+/* Experience: card left, image right. */
+.about-detail-row.reverse-layout .detail-image {
+  right: 0;
+}
+
+.about-detail-row.reverse-layout .detail-content {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 58%;
+  min-height: 204px;
+  padding: 30px 30px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: none;
+  z-index: 3;
+}
+
+/* The cards intentionally overlap the images instead of sitting beside them. */
+.about-detail-row:not(.reverse-layout) .detail-content {
+  transform: translateX(0);
+}
+
+.about-detail-row.reverse-layout .detail-content {
+  transform: translateX(0);
+}
+
+.about-detail-row .about-heading {
+  margin: 0 0 14px;
+}
+
+.about-detail-row .detail-content p {
+  margin-bottom: 8px;
+}
+
+.about-detail-row .detail-content p:last-child {
+  margin-bottom: 0;
+}
+
+.about-detail-row .experience-list li {
+  padding: 6px 0;
+}
+
+/*
+   Image-to-image rhythm:
+   each detail row owns a fixed image height, so the next image starts
+   after the previous image + one controlled gap. Card height/position
+   does not push the following image downward.
+*/
+.about-detail-row + .about-detail-row {
+  margin-top: 0;
+}
+
+/* =========================================================
+   RESPONSIVE / MOBILE
+   ========================================================= */
+
+@media (max-width: 900px) {
+  .about-detail-row {
+    height: auto;
+    min-height: 0;
+    margin-bottom: 46px;
+  }
+
+  .about-detail-row .detail-image,
+  .about-detail-row:not(.reverse-layout) .detail-image,
+  .about-detail-row.reverse-layout .detail-image {
+    position: relative;
+    inset: auto;
+    width: 62%;
+    height: 260px;
+    z-index: 1;
+  }
+
+  .about-detail-row:not(.reverse-layout) .detail-image {
+    margin-left: 0;
+  }
+
+  .about-detail-row.reverse-layout .detail-image {
+    margin-left: auto;
+  }
+
+  .about-detail-row .detail-content,
+  .about-detail-row:not(.reverse-layout) .detail-content,
+  .about-detail-row.reverse-layout .detail-content {
+    position: relative;
+    inset: auto;
+    width: 62%;
+    min-height: 0;
+    margin-top: -55px;
+    padding: 26px 26px 24px;
+    transform: none;
+    z-index: 3;
+  }
+
+  .about-detail-row:not(.reverse-layout) .detail-content {
+    margin-left: auto;
+  }
+
+  .about-detail-row.reverse-layout .detail-content {
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: -55px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Remove the old two-column mobile rule from the existing stylesheet. */
+  .about-detail-row,
+  .about-detail-row.reverse-layout {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 0;
+    margin-bottom: 48px;
+  }
+
+  .about-detail-row .detail-image,
+  .about-detail-row:not(.reverse-layout) .detail-image,
+  .about-detail-row.reverse-layout .detail-image {
+    position: relative;
+    width: 82%;
+    height: 240px;
+    margin: 0;
+    inset: auto;
+    order: 1;
+  }
+
+  .about-detail-row:not(.reverse-layout) .detail-image {
+    align-self: flex-start;
+  }
+
+  .about-detail-row.reverse-layout .detail-image {
+    align-self: flex-end;
+  }
+
+  .about-detail-row .detail-content,
+  .about-detail-row:not(.reverse-layout) .detail-content,
+  .about-detail-row.reverse-layout .detail-content {
+    position: relative;
+    width: 88%;
+    min-height: 0;
+    margin: -42px 0 0;
+    padding: 24px 22px;
+    inset: auto;
+    transform: none;
+    order: 2;
+  }
+
+  .about-detail-row:not(.reverse-layout) .detail-content {
+    align-self: flex-end;
+  }
+
+  .about-detail-row.reverse-layout .detail-content {
+    align-self: flex-start;
+  }
+
+  .about-detail-row .about-heading {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .about-detail-row .detail-content p,
+  .about-detail-row .experience-list li {
+    font-size: 10px;
+    line-height: 1.65;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-detail-row,
+  .about-detail-row.reverse-layout {
+    margin-bottom: 42px;
+  }
+
+  .about-detail-row .detail-image,
+  .about-detail-row:not(.reverse-layout) .detail-image,
+  .about-detail-row.reverse-layout .detail-image {
+    width: 88%;
+    height: 215px;
+  }
+
+  .about-detail-row .detail-content,
+  .about-detail-row:not(.reverse-layout) .detail-content,
+  .about-detail-row.reverse-layout .detail-content {
+    width: 94%;
+    margin-top: -34px;
+    padding: 21px 18px;
+  }
+
+  .about-detail-row .about-heading {
+    font-size: 17px;
+  }
+}
